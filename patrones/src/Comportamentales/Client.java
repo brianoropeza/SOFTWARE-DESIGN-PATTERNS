@@ -8,7 +8,7 @@ package Comportamentales;
  *
  * @author brian
  */
-public class Main {
+public class Client {
     public static void main(String[] args) {
         Publisher publisher = new Publisher();
 
@@ -38,4 +38,5 @@ public class Main {
         publisher.mainBusinessLogic("Final game win...");
     }
 }
+
 
